@@ -4,7 +4,13 @@ import './styles.css'
 function App() {
   return (
     <div>
-      <h1>hello world!</h1>
+      <h1>Lista de tres regalos</h1>
+
+      <ul>
+        <li>Laptop</li>
+        <li>Teclado</li>
+        <li>Audifonos</li>
+      </ul>
     </div>
   )
 }
