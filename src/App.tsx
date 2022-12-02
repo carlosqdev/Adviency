@@ -1,14 +1,12 @@
-import "./styles.css";
+import React from 'react'
+import './styles.css'
 
-export default function App() {
+function App() {
   return (
-    <div className="App">
-      <h1>Regalos:</h1>
-      <ul>
-        <li>Medias</li>
-        <li>Gorras</li>
-        <li>Tuki</li>
-      </ul>
+    <div>
+      <h1>hello world!</h1>
     </div>
-  );
+  )
 }
+
+export default App
