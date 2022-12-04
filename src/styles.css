@@ -1,4 +1,67 @@
-body {
+* {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: monospace;
+  font-size: 16px;
+}
+
+.app {
+  background-color: #e6e0e0;
+  display: flex;
+  min-height: 100vh;
+}
+
+.gift {
+  background-color: #de3c4d;
+  margin: auto;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0px 0px 1px 3px #45d029;
+}
+
+.gift-form {
+  margin: 1rem 0px;
+  display: flex;
+  gap: 10px;
+}
+
+.gift-label {
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 1.6;
+}
+
+.gift-input {
+  padding: 5px 8px;
+  border-radius: 5px;
+  border: none;
+}
+
+.gift-button {
+  padding: 5px 8px;
+  border-radius: 5px;
+  border: none;
+}
+
+.gift-title {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #ffff51;
+  line-height: 1.6;
+}
+
+.gift-list {
+  list-style: square;
+}
+
+.gift-list__item {
+  font-size: 1.2rem;
+  line-height: 1.4;
+  font-weight: 600;
+  color: #ffffff;
 }
