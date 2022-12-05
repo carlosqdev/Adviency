@@ -1,0 +1,38 @@
+.form-gift {
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  gap: 5px;
+}
+
+.form-label {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.form-control {
+  font-size: 1rem;
+  padding: 7px;
+  border: none;
+  background: #DDDDDD;
+  border-radius: 5px;
+}
+
+.form-control:focus {
+  outline-color: #3CF272;
+}
+
+.form-btn {
+  font-size: 1rem;
+  padding: 7px;
+  border-radius: 5px;
+  border: none;
+  color: #ffffff;
+  font-weight: bold;
+  background-image: radial-gradient(circle at 50% 50%, #18eb27 0, #18eb27 50%, #18eb27 100%);
+}
+
+.form-btn:hover {
+  background-image: radial-gradient(circle at 78.18% 42.45%, #d8d100 0, #bfd800 10%, #a4de00 20%, #86e300 30%, #60e700 40%, #18eb27 50%, #00ee4a 60%, #00f166 70%, #00f382 80%, #00f49c 90%, #00f5b7 100%);
+}

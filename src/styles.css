@@ -1,4 +1,18 @@
-body {
+* {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #000000;
+  font-size: 16px;
+  font-family: monospace;
+}
+
+.app {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-image: radial-gradient(circle at 86.14% 53.16%, #f0fa5a 0, #d7fb5a 10%, #bcfa5d 20%, #9cf861 30%, #76f668 40%, #3cf271 50%, #00ee7c 60%, #00e98a 70%, #00e59a 80%, #00e2ac 90%, #00debf 100%);
 }

@@ -1,0 +1,29 @@
+.list-gift {
+  width: 100%;
+  margin-top: 1rem;
+  list-style: none;
+}
+
+.list-gift .gift {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.list-gift .gift p {
+  font-size: 1.1rem;
+}
+
+.list-gift .btn-remove {
+  font-size: 1rem;
+  padding: 7px;
+  border-radius: 5px;
+  border: none;
+  color: #ffffff;
+  font-weight: bold;
+  background-image: radial-gradient(circle at 86.14% 53.16%, #e88200 0, #f17000 12.5%, #f75b00 25%, #fc3f00 37.5%, #ff0000 50%, #ff001a 62.5%, #ff002b 75%, #ff003a 87.5%, #fc004b 100%);
+}
+
+.list-gift .btn-remove:hover {
+  background-image: radial-gradient(circle at 86.54% 50%, #afb600 0, #bfad00 6.25%, #cea200 12.5%, #db9500 18.75%, #e68600 25%, #ef7400 31.25%, #f75e00 37.5%, #fc4100 43.75%, #ff0000 50%, #ff001b 56.25%, #ff002d 62.5%, #fe003d 68.75%, #fa004f 75%, #f40063 81.25%, #ea0078 87.5%, #dd008e 93.75%, #cc00a5 100%);
+}
