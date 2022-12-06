@@ -1,0 +1,24 @@
+.wrapper {
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 0px 5px #FFEE5F;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-rows: 1fr 1fr 40px;
+  gap: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .wrapper {
+    width: auto;
+    grid-template-rows: 100px 1fr 40px;
+  }
+}

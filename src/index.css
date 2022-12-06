@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-image: url(./asset/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: inherit;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-size: cover;
+  }
+}

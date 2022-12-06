@@ -1,0 +1,21 @@
+.app {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+}
+
+.app_button {
+  height: 40px;
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  background-image: radial-gradient(circle at 88.69% 50%, #ff7836 0, #ff6338 16.67%, #ff4537 33.33%, #ff0133 50%, #f00031 66.67%, #e40033 83.33%, #db0039 100%);
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: bold;
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, .15);
+}
+
+.app_button:hover {
+  background-image: radial-gradient(circle at 72.39% 51.96%, #ff7d35 0, #ff6838 16.67%, #ff4937 33.33%, #ff0133 50%, #ef0031 66.67%, #e20034 83.33%, #d8003b 100%);
+}
