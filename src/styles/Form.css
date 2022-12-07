@@ -1,0 +1,43 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: space-between;
+}
+
+.form_label {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.form_input {
+  padding: 5px 8px;
+  font-size: 1.3rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #dfdfdf;
+}
+
+.form_input:focus {
+  outline-color: #6BCC50;
+}
+
+.form_button {
+  padding: 5px 8px;
+  font-size: 1.3rem;
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  background-image: linear-gradient(270deg, #efd65d 0, #ded658 8.33%, #cbd653 16.67%, #b7d450 25%, #a1d24e 33.33%, #88d04e 41.67%, #6acc50 50%, #43c854 58.33%, #00c45a 66.67%, #00c163 75%, #00bd6e 83.33%, #00ba7a 91.67%, #00b787 100%);
+}
+
+.form_button:hover {
+  background-image: linear-gradient(90deg, #efd65d 0, #ded658 8.33%, #cbd653 16.67%, #b7d450 25%, #a1d24e 33.33%, #88d04e 41.67%, #6acc50 50%, #43c854 58.33%, #00c45a 66.67%, #00c163 75%, #00bd6e 83.33%, #00ba7a 91.67%, #00b787 100%);
+  font-weight: bold;
+}
+
+@media screen and (min-width: 1024px) {
+  .form {
+    flex-direction: row;
+  }
+}
