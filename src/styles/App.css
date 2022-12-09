@@ -5,7 +5,7 @@
 }
 
 .app_button {
-  padding: 5px 8px;
+  padding: 20px 8px;
   font-size: 1.3rem;
   border: none;
   border-radius: 8px;
@@ -16,11 +16,4 @@
 .app_button:hover {
   background-image: linear-gradient(270deg, #cd8955 0, #cf8053 10%, #d07651 20%, #d06a50 30%, #ce5e50 40%, #cc5050 50%, #c94152 60%, #c53255 70%, #c0225b 80%, #ba0e61 90%, #b40069 100%);
   font-weight: bold;
-}
-
-@media screen and (min-width: 1024px) {
-  .app_button {
-    width: 50%;
-    margin: auto;
-  }
 }

@@ -10,13 +10,7 @@ function App() {
 
   // add new gift
   const newGift = (gift: IGift) => {
-    const giftDuplicated = gifts.filter(item => item.description === gift.description)
-
-    if (giftDuplicated.length > 0) {
-      alert(`Gift is duplicated`)
-    } else {
-      setGifts([...gifts, gift])
-    }
+    setGifts([...gifts, gift])
   }
   // remove one gift
   const removeGift = (gift: IGift) => {

@@ -8,6 +8,7 @@ export default function Lists({ gifts, removeGift }: PropsLists) {
       {gifts?.map((gift) => (
         <li className='lists_item' key={gift.idGift}>
           <p className='lists_text'>🎁 {gift.description}</p>
+          <span className='list_text'>{gift.qty}</span>
           <button className='lists_button' onClick={() => removeGift(gift)} >❌ Delete</button>
         </li>
       ))}

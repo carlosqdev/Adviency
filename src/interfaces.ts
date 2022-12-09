@@ -3,6 +3,7 @@ import React from 'react';
 export interface IGift {
   idGift: string;
   description: string;
+  qty: number;
 }
 
 export interface PropsForm {
